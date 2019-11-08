@@ -4,6 +4,8 @@ body {
 
 .box1 {
   background: lightgray;
+  padding: 10px;
+  grid-column: 1 / 4;
 }
 
 .box2 {
@@ -34,14 +36,12 @@ body {
   background: darkgray;
 }
 
-.box9 {
-  background: lightgray;
-}
-
 .container {
   display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  margin: 20px auto;
+  width: 400px;
+  height: 200px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
 }
