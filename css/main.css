@@ -2,36 +2,46 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.item1 {
-  grid-area: header;
-}
-.item2 {
-  grid-area: menu;
-}
-.item3 {
-  grid-area: main;
-}
-.item4 {
-  grid-area: right;
-}
-.item5 {
-  grid-area: footer;
+.box1 {
+  background: lightgray;
 }
 
-.grid-container {
+.box2 {
+  background: darkgray;
+}
+
+.box3 {
+  background: lightgray;
+}
+
+.box4 {
+  background: darkgray;
+}
+
+.box5 {
+  background: lightgray;
+}
+
+.box6 {
+  background: darkgray;
+}
+
+.box7 {
+  background: lightgray;
+}
+
+.box8 {
+  background: darkgray;
+}
+
+.box9 {
+  background: lightgray;
+}
+
+.container {
   display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196f3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
