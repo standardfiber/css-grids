@@ -1,48 +1,46 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
-.box1 {
-  background: lightgray;
-  padding: 10px;
-  grid-column: 1 / 4;
-}
-
-.box2 {
-  background: darkgray;
-}
-
-.box3 {
+.b1 {
   background: lightgray;
 }
 
-.box4 {
-  background: darkgray;
-}
-
-.box5 {
+.b2 {
   background: lightgray;
 }
 
-.box6 {
-  background: darkgray;
-}
-
-.box7 {
+.b3 {
   background: lightgray;
 }
 
-.box8 {
-  background: darkgray;
-  grid-column: 1 / 4;
+.b4 {
+  background: lightgray;
+}
+
+.b5 {
+  background: lightgray;
+}
+
+.b6 {
+  background: lightgray;
+}
+
+.b7 {
+  background: lightgray;
+}
+
+.b8 {
+  background: lightgray;
 }
 
 .container {
   display: grid;
+  font-size: 40px;
+  width: 800px;
   margin: 20px auto;
-  width: 80%;
-  height: 200px;
-  grid-template-columns: 25% 25% 50%;
-  grid-template-rows: 100px 100px 100px 100px;
-  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: 100px;
+  grid-gap: 5px;
 }
