@@ -5,34 +5,33 @@ body {
 
 .b1 {
   background: lightgray;
+  grid-column: 1 / 3;
 }
 
 .b2 {
   background: lightgray;
+  grid-column: 1 / 3;
+  height: 100px;
 }
 
 .b3 {
   background: lightgray;
+  grid-row: 3 / 5;
 }
 
 .b4 {
   background: lightgray;
+  height: 150px;
 }
 
 .b5 {
   background: lightgray;
+  height: 150px;
 }
 
 .b6 {
   background: lightgray;
-}
-
-.b7 {
-  background: lightgray;
-}
-
-.b8 {
-  background: lightgray;
+  grid-column: 1 / 3;;
 }
 
 .container {
@@ -40,7 +39,7 @@ body {
   font-size: 40px;
   width: 800px;
   margin: 20px auto;
-  grid-template-columns: auto auto auto auto;
-  grid-auto-rows: 100px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-gap: 5px;
 }
