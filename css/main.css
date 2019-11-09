@@ -40,7 +40,5 @@ body {
   margin: 20px auto;
   grid-template-columns: 200px auto;
   grid-template-rows: auto auto auto auto;
-  grid-gap: 5px;
-  justify-self: center;
-  align-self: center;
+  grid-gap: 10px;
 }
