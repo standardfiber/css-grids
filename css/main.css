@@ -12,9 +12,9 @@ p {
 .box3,
 .box4,
 .box5,
-.oxb6 {
+.box6 {
   background: lightgray;
-  padding: 5px 20px 10px;
+  padding: 10px 20px;
 }
 
 .box1 {
@@ -23,6 +23,7 @@ p {
 
 .box2 {
   grid-area: jumbotron;
+  height: 200px;
 }
 
 .box3 {
