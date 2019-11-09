@@ -30,6 +30,11 @@ p {
   grid-area: sidebar;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .box4 {
   grid-area: main1;
 }
